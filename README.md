@@ -14,7 +14,7 @@ The resources and technologies used in the project are:
 ## Project Workflow
 In this continuously evolving project, we are going to employ AWS resources to automate the checks and actions one has to take to optimize and make AWS usage efficient. Our use cases are:
 
-* ## Monitor and respond to newly created EBS volumes that are of type GP2 and convert them to type GP3 with the following steps:
+* ## Monitor and respond to newly created EBS volumes that are of type GP2 and convert them to type GP3:
   - A Lambda function to be triggered when an Amazon Elastic Block Store (EBS) volume is created.
   - AWS Cloudwatch is used to trigger the function and also to collect log streams for efficient troubleshooting.
   - The "lambda_handler" script is written in Python 3, employs [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html), and is available for perusal and feedback.
