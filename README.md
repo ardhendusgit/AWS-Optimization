@@ -23,4 +23,4 @@ In this continuously evolving project, we are going to employ AWS resources to a
   - We are using stale EBS snapshots as a starting point.
   - A Lambda function is to be triggered at a particular time interval (for example, once every week) using Cloudwatch events.
   - The Lambda function fetches all EBS snapshots owned by the same account ('self') and also retrieves a list of active EC2 instances (running and stopped). For each snapshot, it checks if the associated volume (if exists) is not associated with any active instance. If it finds a stale snapshot, it deletes it, effectively optimizing storage costs.
-  - The "lambda_handler" script is written in Python 3], employs [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html), and is available for perusal and feedback.
+  - The "lambda_handler" script is written in Python 3, employs [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html), and is available for perusal and feedback.
