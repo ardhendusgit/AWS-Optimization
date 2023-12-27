@@ -12,7 +12,7 @@ The resources and technologies used in the project are:
   - Python
 
 ## Project Workflow
-In this continuously evolving project, we are going to employ AWS resources to automate the checks and actions one has to take to optimize and make AWS usage efficient. Our use cases are:
+In this continuously evolving project, we are going to employ AWS resources to automate the checks and actions one has to take to optimize and make AWS usage efficient. Our present use cases are:
 
 * ## Monitor and respond to newly created EBS volumes that are of type GP2 and convert them to type GP3:
   - A Lambda function to be triggered when an Amazon Elastic Block Store (EBS) volume is created.
